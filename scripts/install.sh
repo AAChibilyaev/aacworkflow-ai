@@ -14,8 +14,8 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-REPO_URL="https://github.com/AAChibilyaev/aacworkflow.git"
-REPO_WEB_URL="https://github.com/AAChibilyaev/aacworkflow"  # without .git, for GitHub web APIs
+REPO_URL="https://github.com/AAChibilyaev/aacworkflow-ai.git"
+REPO_WEB_URL="https://github.com/AAChibilyaev/aacworkflow-ai"  # without .git, for GitHub web APIs
 INSTALL_DIR="${AACWORKFLOW_INSTALL_DIR:-$HOME/.aacworkflow/server}"
 BREW_PACKAGE="AAChibilyaev/tap/aacworkflow"
 
