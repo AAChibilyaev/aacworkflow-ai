@@ -12,8 +12,8 @@ $ErrorActionPreference = "Stop"
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-$RepoUrl       = "https://github.com/AAChibilyaev/aacworkflow.git"
-$RepoWebUrl    = "https://github.com/AAChibilyaev/aacworkflow"
+$RepoUrl       = "https://github.com/AAChibilyaev/aacworkflow-ai.git"
+$RepoWebUrl    = "https://github.com/AAChibilyaev/aacworkflow-ai"
 $DefaultInstallDir = Join-Path $env:USERPROFILE ".aacworkflow\server"
 $InstallDir    = if ($env:AACWORKFLOW_INSTALL_DIR) { $env:AACWORKFLOW_INSTALL_DIR } else { $DefaultInstallDir }
 
